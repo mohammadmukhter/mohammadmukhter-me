@@ -10,7 +10,7 @@ import {
   FaUserLock,
 } from "react-icons/fa";
 
-const Skills = () => {
+const Skill = () => {
   return (
     <div>
       <div className="py-12 bg-gray-800/90">
@@ -225,4 +225,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default Skill;

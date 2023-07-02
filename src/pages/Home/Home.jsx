@@ -3,7 +3,7 @@ import Banner from "../Banner/Banner";
 import NavBar from "../NavBar/NavBar";
 import Projects from "../Projects/Projects";
 import Services from "../Services/Services";
-import Skills from "../Skills/Skills";
+import Skill from "../Skill/Skill";
 
 const Home = () => {
   return (
@@ -17,7 +17,7 @@ const Home = () => {
           <NavBar></NavBar>
           <Banner></Banner>
           <Services></Services>
-          <Skills></Skills>
+          <Skill></Skill>
           <Projects></Projects>
         </div>
       </div>
