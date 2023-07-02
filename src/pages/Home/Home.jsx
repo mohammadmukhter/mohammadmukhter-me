@@ -3,7 +3,7 @@ import Banner from "../Banner/Banner";
 import NavBar from "../NavBar/NavBar";
 import Projects from "../Projects/Projects";
 import Services from "../Services/Services";
-import Skills from "../skills/Skills";
+import Skills from "../Skills/Skills";
 
 const Home = () => {
   return (
