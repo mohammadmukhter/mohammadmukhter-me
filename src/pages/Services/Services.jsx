@@ -1,3 +1,10 @@
+import {
+  FaAngleDoubleRight,
+  FaDrawPolygon,
+  FaPager,
+  FaReact,
+  FaServer,
+} from "react-icons/fa";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -41,105 +48,164 @@ const Services = () => {
           modules={[Pagination, FreeMode]}
           className="mySwiper"
         >
-          <SwiperSlide>
-            <div className="card w-96 bg-neutral text-neutral-content">
-              <div className="card-body items-center ">
+          <SwiperSlide className="rounded-lg">
+            <div className="card w-full h-96 rounded-md bg-neutral text-neutral-content">
+              <div className="card-body items-center text-white ">
+                <span>
+                  <FaReact className="text-7xl"></FaReact>
+                </span>
                 <h2 className="card-title text-center">
                   Front End Development
                 </h2>
                 <div className="text-left">
-                  <p>
-                    <span>=</span>HTML/CSS
+                  <p className="flex items-center">
+                    <span>
+                      <FaAngleDoubleRight className="mr-1"></FaAngleDoubleRight>
+                    </span>
+                    HTML/CSS
                   </p>
-                  <p>
-                    <span>=</span>Bootstrap/TailwindCSS
+                  <p className="flex items-center">
+                    <span>
+                      <FaAngleDoubleRight className="mr-1"></FaAngleDoubleRight>
+                    </span>
+                    Bootstrap/TailwindCSS
                   </p>
-                  <p>
-                    <span>=</span>Javascript
+                  <p className="flex items-center">
+                    <span>
+                      <FaAngleDoubleRight className="mr-1"></FaAngleDoubleRight>
+                    </span>
+                    Javascript
                   </p>
-                  <p>
-                    <span>=</span>React JS
+                  <p className="flex items-center">
+                    <span>
+                      <FaAngleDoubleRight className="mr-1"></FaAngleDoubleRight>
+                    </span>
+                    React JS
                   </p>
-                  <p>
-                    <span>=</span>Animation
+                  <p className="flex items-center">
+                    <span>
+                      <FaAngleDoubleRight className="mr-1"></FaAngleDoubleRight>
+                    </span>
+                    Animation
                   </p>
                 </div>
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="card w-96 bg-neutral text-neutral-content">
-              <div className="card-body items-center ">
+
+          <SwiperSlide className="rounded-lg">
+            <div className="card w-full h-96 rounded-md bg-neutral text-neutral-content">
+              <div className="card-body items-center text-white">
+                <span>
+                  <FaServer className="text-7xl"></FaServer>
+                </span>
                 <h2 className="card-title text-center">
-                  Front End Development
+                  Backend/server side Development
                 </h2>
                 <div className="text-left">
-                  <p>
-                    <span>=</span>HTML/CSS
+                  <p className="flex items-center">
+                    <span>
+                      <FaAngleDoubleRight className="mr-1"></FaAngleDoubleRight>
+                    </span>
+                    node JS
                   </p>
-                  <p>
-                    <span>=</span>Bootstrap/TailwindCSS
+                  <p className="flex items-center">
+                    <span>
+                      <FaAngleDoubleRight className="mr-1"></FaAngleDoubleRight>
+                    </span>
+                    express JS
                   </p>
-                  <p>
-                    <span>=</span>Javascript
+                  <p className="flex items-center">
+                    <span>
+                      <FaAngleDoubleRight className="mr-1"></FaAngleDoubleRight>
+                    </span>
+                    mongoDB
                   </p>
-                  <p>
-                    <span>=</span>React JS
+                  <p className="flex items-center">
+                    <span>
+                      <FaAngleDoubleRight className="mr-1"></FaAngleDoubleRight>
+                    </span>
+                    JWT
                   </p>
-                  <p>
-                    <span>=</span>Animation
+                  <p className="flex items-center">
+                    <span>
+                      <FaAngleDoubleRight className="mr-1"></FaAngleDoubleRight>
+                    </span>
+                    Payment system integrate
                   </p>
                 </div>
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="card w-96 bg-neutral text-neutral-content">
-              <div className="card-body items-center ">
+          <SwiperSlide className="rounded-lg">
+            <div className="card w-full h-96 rounded-md bg-neutral text-neutral-content">
+              <div className="card-body items-center text-white">
+                <span>
+                  <FaPager className="text-7xl"></FaPager>
+                </span>
                 <h2 className="card-title text-center">
-                  Front End Development
+                  Full Stack Web Development
                 </h2>
                 <div className="text-left">
-                  <p>
-                    <span>=</span>HTML/CSS
+                  <p className="flex items-center">
+                    <span>
+                      <FaAngleDoubleRight className="mr-1"></FaAngleDoubleRight>
+                    </span>
+                    MongoDB
                   </p>
-                  <p>
-                    <span>=</span>Bootstrap/TailwindCSS
+                  <p className="flex items-center">
+                    <span>
+                      <FaAngleDoubleRight className="mr-1"></FaAngleDoubleRight>
+                    </span>
+                    Express JS
                   </p>
-                  <p>
-                    <span>=</span>Javascript
+                  <p className="flex items-center">
+                    <span>
+                      <FaAngleDoubleRight className="mr-1"></FaAngleDoubleRight>
+                    </span>
+                    React JS
                   </p>
-                  <p>
-                    <span>=</span>React JS
-                  </p>
-                  <p>
-                    <span>=</span>Animation
+                  <p className="flex items-center">
+                    <span>
+                      <FaAngleDoubleRight className="mr-1"></FaAngleDoubleRight>
+                    </span>
+                    Node JS
                   </p>
                 </div>
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="card w-96 bg-neutral text-neutral-content">
-              <div className="card-body items-center ">
-                <h2 className="card-title text-center">
-                  Front End Development
-                </h2>
+          <SwiperSlide className="rounded-lg">
+            <div className="card w-full h-96 rounded-md bg-neutral text-neutral-content">
+              <div className="card-body items-center text-white">
+                <span>
+                  <FaDrawPolygon className="text-7xl"></FaDrawPolygon>
+                </span>
+                <h2 className="card-title text-center">Figma to HTML/React</h2>
                 <div className="text-left">
-                  <p>
-                    <span>=</span>HTML/CSS
+                  <p className="flex items-center">
+                    <span>
+                      <FaAngleDoubleRight className="mr-1"></FaAngleDoubleRight>
+                    </span>
+                    pixel perfect design
                   </p>
-                  <p>
-                    <span>=</span>Bootstrap/TailwindCSS
+                  <p className="flex items-center">
+                    <span>
+                      <FaAngleDoubleRight className="mr-1"></FaAngleDoubleRight>
+                    </span>
+                    figma to Html
                   </p>
-                  <p>
-                    <span>=</span>Javascript
+                  <p className="flex items-center">
+                    <span>
+                      <FaAngleDoubleRight className="mr-1"></FaAngleDoubleRight>
+                    </span>
+                    figma to react
                   </p>
-                  <p>
-                    <span>=</span>React JS
-                  </p>
-                  <p>
-                    <span>=</span>Animation
+                  <p className="flex items-center">
+                    <span>
+                      <FaAngleDoubleRight className="mr-1"></FaAngleDoubleRight>
+                    </span>
+                    source code
                   </p>
                 </div>
               </div>
