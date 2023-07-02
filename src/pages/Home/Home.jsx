@@ -1,6 +1,7 @@
 import bgImg from "../../assets/mern.jpg";
 import Banner from "../Banner/Banner";
 import NavBar from "../NavBar/NavBar";
+import Services from "../Services/Services";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <div className="text-white relative">
           <NavBar></NavBar>
           <Banner></Banner>
+          <Services></Services>
         </div>
       </div>
     </div>
