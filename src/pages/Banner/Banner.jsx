@@ -1,3 +1,4 @@
+import { Tilt } from "react-tilt";
 import bannerImg from "../../assets/mine.jpeg";
 
 const Banner = () => {
@@ -5,10 +6,19 @@ const Banner = () => {
     <div className="hero min-h-screen bg-gray-800/95">
       <div className="hero-content flex-col lg:flex-row-reverse w-full justify-center items-center px-20">
         <div className="lg:w-1/3 w-full">
-          <img
-            src={bannerImg}
-            className="w-72 mx-auto lg:ml-auto rounded-lg shadow-2xl"
-          />
+          <Tilt
+            className="tilt"
+            perspective={1000}
+            tiltReverse={true}
+            tiltMaxAngleX={30}
+            tiltMaxAngleY={30}
+            transition:true
+          >
+            <img
+              src={bannerImg}
+              className="w-72 mx-auto lg:ml-auto rounded-lg shadow-2xl"
+            />
+          </Tilt>
         </div>
         <div className="lg:w-2/3 w-full space-y-4">
           <div>

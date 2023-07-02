@@ -1,6 +1,7 @@
 import bgImg from "../../assets/mern.jpg";
 import Banner from "../Banner/Banner";
 import NavBar from "../NavBar/NavBar";
+import Projects from "../Projects/Projects";
 import Services from "../Services/Services";
 import Skills from "../skills/Skills";
 
@@ -17,6 +18,7 @@ const Home = () => {
           <Banner></Banner>
           <Services></Services>
           <Skills></Skills>
+          <Projects></Projects>
         </div>
       </div>
     </div>
