@@ -2,6 +2,7 @@ import bgImg from "../../assets/mern.jpg";
 import Banner from "../Banner/Banner";
 import NavBar from "../NavBar/NavBar";
 import Services from "../Services/Services";
+import Skills from "../skills/Skills";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
           <NavBar></NavBar>
           <Banner></Banner>
           <Services></Services>
+          <Skills></Skills>
         </div>
       </div>
     </div>
