@@ -2,8 +2,7 @@ import { Outlet } from "react-router-dom";
 
 const Main = () => {
   return (
-    <div>
-      <h2>Navigation here</h2>
+    <div className="max-w-7xl mx-auto">
       <Outlet></Outlet>
     </div>
   );
