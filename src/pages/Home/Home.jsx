@@ -1,4 +1,5 @@
 import bgImg from "../../assets/mern.jpg";
+import Banner from "../Banner/Banner";
 import NavBar from "../NavBar/NavBar";
 
 const Home = () => {
@@ -9,10 +10,9 @@ const Home = () => {
         style={{ backgroundImage: `url(${bgImg})` }}
       >
         {/* <div className="absolute top-0 left-0 bg-black/70 h-full w-full text-white"></div> */}
-        <div className="text-white">
+        <div className="text-white relative">
           <NavBar></NavBar>
-
-          <h2>This is Home page</h2>
+          <Banner></Banner>
         </div>
       </div>
     </div>
