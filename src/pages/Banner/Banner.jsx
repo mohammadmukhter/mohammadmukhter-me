@@ -1,7 +1,9 @@
 import { FaFacebookSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { Tilt } from "react-tilt";
+import Typewriter from "typewriter-effect";
 import bannerImg from "../../assets/mine.jpeg";
+
 import resumePdf from "../../assets/resume_md_mukhter_hossan.pdf";
 
 const Banner = () => {
@@ -31,9 +33,23 @@ const Banner = () => {
             <h1 className="text-7xl font-bold drop-shadow-2xl">
               Md Mukhter Hossan
             </h1>
-            <p className="text-2xl drop-shadow-2xl">
-              <span className="text-green-600">A Front end focused</span> Full
-              Stack Developer
+
+            <p className="text-2xl drop-shadow-2xl inline-block">
+              <span className="inline-block">
+                <Typewriter
+                  options={{
+                    skipAddStyles: true,
+                    deleteSpeed: 30,
+                    strings: [
+                      '<span style="color: #27ae60; font-size: 28px; font-weight:bold">A Front end focused Full Stack Developer</span>',
+                      '<span style="color: #F86F03; font-size: 28px; font-weight:bold">Front End Developer</span>',
+                      '<span style="color: #EA906C; font-size: 28px; font-weight:bold">MERN Stack Developer</span>',
+                    ],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
+              </span>
             </p>
           </div>
           <a
