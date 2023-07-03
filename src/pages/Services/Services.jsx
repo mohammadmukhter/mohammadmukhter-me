@@ -19,8 +19,10 @@ import { FreeMode, Pagination } from "swiper";
 const Services = () => {
   return (
     <div className="py-12 bg-gray-800/90">
-      <h2 className="text-6xl font-bold uppercase text-center">What I do?</h2>
-      <h3 className="text-center text-2xl">
+      <h2 className="text-6xl font-bold uppercase text-center drop-shadow-2xl">
+        What I do?
+      </h2>
+      <h3 className="text-center text-2xl drop-shadow-2xl">
         <span className="text-orange-600">My</span> Services
       </h3>
       <div className="px-4 py-8">
@@ -49,7 +51,7 @@ const Services = () => {
           className="mySwiper"
         >
           <SwiperSlide className="rounded-lg">
-            <div className="card w-full h-96 rounded-md bg-neutral text-neutral-content">
+            <div className="card w-full h-96 rounded-md bg-neutral text-neutral-content shadow-md">
               <div className="card-body items-center text-white ">
                 <span>
                   <FaReact className="text-7xl"></FaReact>
@@ -92,9 +94,8 @@ const Services = () => {
               </div>
             </div>
           </SwiperSlide>
-
           <SwiperSlide className="rounded-lg">
-            <div className="card w-full h-96 rounded-md bg-neutral text-neutral-content">
+            <div className="card w-full h-96 rounded-md bg-neutral text-neutral-content shadow-md">
               <div className="card-body items-center text-white">
                 <span>
                   <FaServer className="text-7xl"></FaServer>
@@ -138,7 +139,7 @@ const Services = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="rounded-lg">
-            <div className="card w-full h-96 rounded-md bg-neutral text-neutral-content">
+            <div className="card w-full h-96 rounded-md bg-neutral text-neutral-content shadow-md">
               <div className="card-body items-center text-white">
                 <span>
                   <FaPager className="text-7xl"></FaPager>
@@ -176,7 +177,7 @@ const Services = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="rounded-lg">
-            <div className="card w-full h-96 rounded-md bg-neutral text-neutral-content">
+            <div className="card w-full h-96 rounded-md bg-neutral text-neutral-content shadow-md">
               <div className="card-body items-center text-white">
                 <span>
                   <FaDrawPolygon className="text-7xl"></FaDrawPolygon>

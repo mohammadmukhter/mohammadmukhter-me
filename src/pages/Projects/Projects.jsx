@@ -8,15 +8,15 @@ const Projects = () => {
   return (
     <div>
       <div className="py-12 bg-gray-800/90">
-        <h2 className="text-6xl font-bold uppercase text-center">
+        <h2 className="text-6xl font-bold uppercase text-center drop-shadow-2xl">
           All Projects
         </h2>
-        <h3 className="text-center text-2xl">
+        <h3 className="text-center text-2xl drop-shadow-2xl">
           <span className="text-orange-600">My</span> Projects
         </h3>
         <div className="px-4 py-8 grid grid-cols-1 gap-4">
           {/* project one No: */}
-          <div className="card w-full h-auto rounded-md bg-neutral text-neutral-content">
+          <div className="card w-full h-auto rounded-md bg-neutral text-neutral-content shadow-md">
             <div className="card-body text-white grid grid-cols-1 lg:grid-cols-2">
               <div className="px-4">
                 <div className="flex justify-between">
@@ -134,7 +134,7 @@ const Projects = () => {
           </div>
 
           {/* project two No */}
-          <div className="card w-full h-auto rounded-md bg-neutral text-neutral-content">
+          <div className="card w-full h-auto rounded-md bg-neutral text-neutral-content shadow-md">
             <div className="card-body text-white grid grid-cols-1 lg:grid-cols-2">
               <div className="px-4">
                 <div className="flex justify-between">
@@ -239,7 +239,7 @@ const Projects = () => {
           </div>
 
           {/* project Three No */}
-          <div className="card w-full h-auto rounded-md bg-neutral text-neutral-content">
+          <div className="card w-full h-auto rounded-md bg-neutral text-neutral-content shadow-md">
             <div className="card-body text-white grid grid-cols-1 lg:grid-cols-2">
               <div className="px-4">
                 <div className="flex justify-between">

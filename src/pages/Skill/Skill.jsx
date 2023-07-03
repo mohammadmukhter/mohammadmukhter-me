@@ -14,14 +14,14 @@ const Skill = () => {
   return (
     <div>
       <div className="py-12 bg-gray-800/90">
-        <h2 className="text-6xl font-bold uppercase text-center">
+        <h2 className="text-6xl font-bold uppercase text-center drop-shadow-2xl">
           Professional Skills
         </h2>
-        <h3 className="text-center text-2xl">
+        <h3 className="text-center text-2xl drop-shadow-2xl">
           <span className="text-orange-600">My</span> Skills
         </h3>
         <div className="px-4 py-8 grid grid-cols-1 lg:grid-cols-3 gap-4">
-          <div className="card w-full h-68 rounded-md bg-neutral text-neutral-content">
+          <div className="card w-full h-68 rounded-md bg-neutral text-neutral-content shadow-md">
             <div className="card-body items-center text-white ">
               <div className="flex items-center justify-between w-full">
                 <div className="flex gap-2">
@@ -43,7 +43,7 @@ const Skill = () => {
               </div>
             </div>
           </div>
-          <div className="card w-full h-68 rounded-md bg-neutral text-neutral-content">
+          <div className="card w-full h-68 rounded-md bg-neutral text-neutral-content shadow-md">
             <div className="card-body items-center text-white ">
               <div className="flex items-center justify-between w-full">
                 <div className="flex gap-2">
@@ -66,7 +66,7 @@ const Skill = () => {
               </div>
             </div>
           </div>
-          <div className="card w-full h-68 rounded-md bg-neutral text-neutral-content">
+          <div className="card w-full h-68 rounded-md bg-neutral text-neutral-content shadow-md">
             <div className="card-body items-center text-white ">
               <div className="flex items-center justify-between w-full">
                 <div className="flex gap-2">
@@ -89,7 +89,7 @@ const Skill = () => {
               </div>
             </div>
           </div>
-          <div className="card w-full h-68 rounded-md bg-neutral text-neutral-content">
+          <div className="card w-full h-68 rounded-md bg-neutral text-neutral-content shadow-md">
             <div className="card-body items-center text-white ">
               <div className="flex items-center justify-between w-full">
                 <div className="flex gap-2">
@@ -110,7 +110,7 @@ const Skill = () => {
               </div>
             </div>
           </div>
-          <div className="card w-full h-68 rounded-md bg-neutral text-neutral-content">
+          <div className="card w-full h-68 rounded-md bg-neutral text-neutral-content shadow-md">
             <div className="card-body items-center text-white ">
               <div className="flex items-center justify-between w-full">
                 <div className="flex gap-2">
@@ -133,7 +133,7 @@ const Skill = () => {
               </div>
             </div>
           </div>
-          <div className="card w-full h-68 rounded-md bg-neutral text-neutral-content">
+          <div className="card w-full h-68 rounded-md bg-neutral text-neutral-content shadow-md">
             <div className="card-body items-center text-white ">
               <div className="flex items-center justify-between w-full">
                 <div className="flex gap-2">
@@ -154,7 +154,7 @@ const Skill = () => {
               </div>
             </div>
           </div>
-          <div className="card w-full h-68 rounded-md bg-neutral text-neutral-content">
+          <div className="card w-full h-68 rounded-md bg-neutral text-neutral-content shadow-md">
             <div className="card-body items-center text-white ">
               <div className="flex items-center justify-between w-full">
                 <div className="flex gap-2">
@@ -175,7 +175,7 @@ const Skill = () => {
               </div>
             </div>
           </div>
-          <div className="card w-full h-68 rounded-md bg-neutral text-neutral-content">
+          <div className="card w-full h-68 rounded-md bg-neutral text-neutral-content shadow-md">
             <div className="card-body items-center text-white ">
               <div className="flex items-center justify-between w-full">
                 <div className="flex gap-2">
@@ -196,7 +196,7 @@ const Skill = () => {
               </div>
             </div>
           </div>
-          <div className="card w-full h-68 rounded-md bg-neutral text-neutral-content">
+          <div className="card w-full h-68 rounded-md bg-neutral text-neutral-content shadow-md">
             <div className="card-body items-center text-white ">
               <div className="flex items-center justify-between w-full">
                 <div className="flex gap-2">

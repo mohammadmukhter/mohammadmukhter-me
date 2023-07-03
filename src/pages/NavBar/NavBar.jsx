@@ -1,36 +1,71 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const NavBar = () => {
   const navList = (
     <>
       <li>
         <Link
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
           className="text-white bg-gray-800 border-[1px] font-medium uppercase hover:text-gray-800 hover:bg-orange-200 focus:visited:text-red-600 focus:visited:bg-orange-200"
-          to="/"
+          to="home"
         >
           Home
         </Link>
       </li>
       <li>
         <Link
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
           className="text-white bg-gray-800 border-[1px] font-medium uppercase hover:text-gray-800 hover:bg-orange-200 focus:visited:text-red-600 focus:visited:bg-orange-200"
-          to="/"
+          to="services"
         >
-          About me
+          Services
+        </Link>
+      </li>
+
+      <li>
+        <Link
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className="text-white bg-gray-800 border-[1px] font-medium uppercase hover:text-gray-800 hover:bg-orange-200 focus:visited:text-red-600 focus:visited:bg-orange-200"
+          to="skill"
+        >
+          Skills
+        </Link>
+      </li>
+
+      <li>
+        <Link
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className="text-white bg-gray-800 border-[1px] font-medium uppercase hover:text-gray-800 hover:bg-orange-200 focus:visited:text-red-600 focus:visited:bg-orange-200"
+          to="projects"
+        >
+          Projects
         </Link>
       </li>
       <li>
         <Link
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
           className="text-white bg-gray-800 border-[1px] font-medium uppercase hover:text-gray-800 hover:bg-orange-200 focus:visited:text-red-600 focus:visited:bg-orange-200"
-          to="/"
-        >
-          my projects
-        </Link>
-      </li>
-      <li>
-        <Link
-          className="text-white bg-gray-800 border-[1px] font-medium uppercase hover:text-gray-800 hover:bg-orange-200 focus:visited:text-red-600 focus:visited:bg-orange-200"
-          to="/"
+          to="contactMe"
         >
           Contact me
         </Link>
@@ -65,8 +100,16 @@ const NavBar = () => {
               {navList}
             </ul>
           </div>
-          <Link to="/" className=" uppercase font-bold text-2xl">
-            About Me
+          <Link
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            to="home"
+            className=" uppercase font-bold text-2xl hover:cursor-pointer drop-shadow-2xl"
+          >
+            <span className="text-orange-600">Mukhter's</span> Profile
           </Link>
         </div>
         <div className="navbar-end hidden lg:flex">

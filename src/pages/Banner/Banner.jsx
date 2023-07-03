@@ -25,9 +25,13 @@ const Banner = () => {
         </div>
         <div className="lg:w-2/3 w-full space-y-4">
           <div>
-            <h3 className="text-4xl text-orange-600">Hello! I'm </h3>
-            <h1 className="text-7xl font-bold">Md Mukhter Hossan</h1>
-            <p className="text-2xl ">
+            <h3 className="text-4xl text-orange-600 drop-shadow-2xl">
+              Hello! I'm{" "}
+            </h3>
+            <h1 className="text-7xl font-bold drop-shadow-2xl">
+              Md Mukhter Hossan
+            </h1>
+            <p className="text-2xl drop-shadow-2xl">
               <span className="text-green-600">A Front end focused</span> Full
               Stack Developer
             </p>
@@ -38,7 +42,7 @@ const Banner = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="bg-orange-200/10 text-white font-medium uppercase px-4 py-2 border-[1px] border-orange-200/10 hover:bg-orange-200 hover:text-gray-800 hover:border-[1px] hover:border-white rounded">
+            <button className="bg-orange-200/10 text-white font-medium uppercase px-4 py-2 border-[1px] border-orange-200/10 hover:bg-orange-200 hover:text-gray-800 hover:border-[1px] hover:border-white rounded mt-4 shadow-md">
               Download my Resume
             </button>
           </a>

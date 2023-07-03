@@ -17,11 +17,24 @@ const Home = () => {
         {/* <div className="absolute top-0 left-0 bg-black/70 h-full w-full text-white"></div> */}
         <div className="text-white relative">
           <NavBar></NavBar>
-          <Banner></Banner>
-          <Services></Services>
-          <Skill></Skill>
-          <Projects></Projects>
-          <Contact></Contact>
+          <div id="home">
+            <Banner></Banner>
+          </div>
+          <div id="services">
+            <Services></Services>
+          </div>
+
+          <div id="skill">
+            <Skill></Skill>
+          </div>
+          <div className="projects">
+            <Projects></Projects>
+          </div>
+
+          <div className="contactMe">
+            <Contact></Contact>
+          </div>
+
           <Footer></Footer>
         </div>
       </div>

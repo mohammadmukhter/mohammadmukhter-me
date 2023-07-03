@@ -3,7 +3,7 @@ import { useRef } from "react";
 import { FaTelegramPlane } from "react-icons/fa";
 
 const Contact = () => {
-  const form = useRef(null);
+  const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
