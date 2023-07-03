@@ -2,6 +2,7 @@ import { FaFacebookSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { Tilt } from "react-tilt";
 import bannerImg from "../../assets/mine.jpeg";
+import resumePdf from "../../assets/resume_md_mukhter_hossan.pdf";
 
 const Banner = () => {
   return (
@@ -31,9 +32,16 @@ const Banner = () => {
               Stack Developer
             </p>
           </div>
-          <button className="bg-orange-200/10 text-white font-medium uppercase px-4 py-2 border-[1px] border-orange-200/10 hover:bg-orange-200 hover:text-gray-800 hover:border-[1px] hover:border-white rounded">
-            Download my Resume
-          </button>
+          <a
+            href={resumePdf}
+            download="resumeOfMukhter"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="bg-orange-200/10 text-white font-medium uppercase px-4 py-2 border-[1px] border-orange-200/10 hover:bg-orange-200 hover:text-gray-800 hover:border-[1px] hover:border-white rounded">
+              Download my Resume
+            </button>
+          </a>
 
           <div className="flex gap-3">
             <Link
