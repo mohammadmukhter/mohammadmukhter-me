@@ -14,7 +14,7 @@ const Skill = () => {
   return (
     <div>
       <div className="py-12 bg-gray-800/90">
-        <h2 className="text-4xl lg:text-6xl font-bold uppercase text-center drop-shadow-2xl">
+        <h2 className="text-4xl lg:text-6xl font-bold uppercase text-center drop-shadow-2xl px-4">
           Professional Skills
         </h2>
         <h3 className="text-center text-xl lg:text-2xl drop-shadow-2xl">
