@@ -35,8 +35,10 @@ const Contact = () => {
 
   return (
     <div className="py-12 bg-gray-800/90">
-      <h2 className="text-6xl font-bold uppercase text-center">Contact Me</h2>
-      <h3 className="text-center text-2xl">
+      <h2 className="text-4xl lg:text-6xl font-bold uppercase text-center">
+        Contact Me
+      </h2>
+      <h3 className="text-center text-xl lg:text-2xl">
         <span className="text-orange-600">Let's</span> Talk about your ideas
       </h3>
       <section

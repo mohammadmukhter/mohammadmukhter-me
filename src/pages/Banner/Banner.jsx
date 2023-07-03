@@ -9,7 +9,7 @@ import resumePdf from "../../assets/resume_md_mukhter_hossan.pdf";
 const Banner = () => {
   return (
     <div className="hero min-h-screen bg-gray-800/95">
-      <div className="hero-content flex-col lg:flex-row-reverse w-full justify-center items-center px-20">
+      <div className="hero-content flex-col lg:flex-row-reverse w-full justify-center items-center px-4 lg:px-20">
         <div
           data-aos="zoom-in"
           data-aos-easing="linear"
