@@ -17,7 +17,7 @@ const Footer = () => {
           ></svg>
           <p>Copyright © 2023 - All right reserved by MUKHTER</p>
         </div>
-        <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+        <div className="grid-flow-col gap-4 md:place-self-center justify-self-center md:justify-self-end">
           <Link
             target="new"
             to="https://www.linkedin.com/in/md-mukhter-h-95a180191/"
