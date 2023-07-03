@@ -1,27 +1,36 @@
-import { useRef } from "react";
-
 import emailjs from "emailjs-com";
+import { useRef } from "react";
+import { FaTelegramPlane } from "react-icons/fa";
 
 const Contact = () => {
-  const form = useRef();
+  const form = useRef(null);
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_5cezuy3",
-        "template_t7sdqew",
-        form.current,
-        "PUNBx0TpyrpuBpE2B"
-      )
-      .then(
-        (result) => {
-          console.log(result);
-        },
-        (error) => {
-          console.log(error);
-        }
-      );
+
+    if (
+      form.current.name.value.length > 0 &&
+      form.current.email.value.length > 0
+    ) {
+      emailjs
+        .sendForm(
+          import.meta.env.VITE_service_id,
+          import.meta.env.VITE_template_id,
+          form.current,
+          import.meta.env.VITE_user_email_id
+        )
+        .then(
+          (result) => {
+            console.log(result);
+            form.current.reset();
+          },
+          (error) => {
+            console.log(error);
+          }
+        );
+    } else {
+      console.log("input filed required");
+    }
   };
 
   return (
@@ -160,9 +169,12 @@ const Contact = () => {
                   active:bg-[#0e0d0d] active:shadow-lg
                   transition
                   duration-150
-                  ease-in-out"
+                  ease-in-out flex justify-center items-center"
               >
-                Send
+                <span className="text-xl mr-2">
+                  <FaTelegramPlane></FaTelegramPlane>
+                </span>{" "}
+                Send Message
               </button>
             </form>
           </div>

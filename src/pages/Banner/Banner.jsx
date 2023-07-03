@@ -1,3 +1,5 @@
+import { FaFacebookSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import { Tilt } from "react-tilt";
 import bannerImg from "../../assets/mine.jpeg";
 
@@ -32,6 +34,30 @@ const Banner = () => {
           <button className="bg-orange-200/10 text-white font-medium uppercase px-4 py-2 border-[1px] border-orange-200/10 hover:bg-orange-200 hover:text-gray-800 hover:border-[1px] hover:border-white rounded">
             Download my Resume
           </button>
+
+          <div className="flex gap-3">
+            <Link
+              target="new"
+              to="https://www.linkedin.com/in/md-mukhter-h-95a180191/"
+              className="text-3xl"
+            >
+              <FaLinkedin></FaLinkedin>
+            </Link>
+            <Link
+              target="new"
+              to="https://www.facebook.com/mdmukhter.mukhterhossain/"
+              className="text-3xl"
+            >
+              <FaFacebookSquare></FaFacebookSquare>
+            </Link>
+            <Link
+              target="new"
+              to="https://github.com/mohammadmukhter"
+              className="text-3xl"
+            >
+              <FaGithubSquare></FaGithubSquare>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
