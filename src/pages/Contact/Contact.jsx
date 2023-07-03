@@ -1,6 +1,29 @@
-import { Link } from "react-router-dom";
+import { useRef } from "react";
+
+import emailjs from "emailjs-com";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_5cezuy3",
+        "template_t7sdqew",
+        form.current,
+        "PUNBx0TpyrpuBpE2B"
+      )
+      .then(
+        (result) => {
+          console.log(result);
+        },
+        (error) => {
+          console.log(error);
+        }
+      );
+  };
+
   return (
     <div className="py-12 bg-gray-800/90">
       <h2 className="text-6xl font-bold uppercase text-center">Contact Me</h2>
@@ -36,10 +59,11 @@ const Contact = () => {
             </p>
           </div>
           <div className="grow-0 shrink-0 basis-auto mb-12 md:mb-0 w-full md:w-6/12 px-3 lg:px-6">
-            <form>
+            <form ref={form} onSubmit={sendEmail}>
               <div className="form-group mb-6">
                 <input
                   type="text"
+                  name="name"
                   className="form-control block
                 w-full
                 px-3
@@ -60,6 +84,7 @@ const Contact = () => {
               <div className="form-group mb-6">
                 <input
                   type="text"
+                  name="subject"
                   className="form-control block
                 w-full
                 px-3
@@ -80,6 +105,7 @@ const Contact = () => {
               <div className="form-group mb-6">
                 <input
                   type="email"
+                  name="email"
                   className="form-control block
                 w-full
                 px-3
@@ -118,12 +144,12 @@ const Contact = () => {
               "
                   rows="4"
                   placeholder="Message"
+                  name="message"
                 ></textarea>
               </div>
 
-              <Link>
-                <button
-                  className=" text-white bg-gray-800 border-[1px] uppercase hover:text-gray-800 hover:bg-orange-200 focus:visited:text-red-600 focus:visited:bg-orange-200 w-full px-6
+              <button
+                className=" text-white bg-gray-800 border-[1px] uppercase hover:text-gray-800 hover:bg-orange-200 focus:visited:text-red-600 focus:visited:bg-orange-200 w-full px-6
                   py-2.5
                   font-bold
                   text-xs
@@ -135,10 +161,9 @@ const Contact = () => {
                   transition
                   duration-150
                   ease-in-out"
-                >
-                  Send
-                </button>
-              </Link>
+              >
+                Send
+              </button>
             </form>
           </div>
         </div>
