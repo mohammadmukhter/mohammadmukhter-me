@@ -10,7 +10,12 @@ const Banner = () => {
   return (
     <div className="hero min-h-screen bg-gray-800/95">
       <div className="hero-content flex-col lg:flex-row-reverse w-full justify-center items-center px-20">
-        <div className="lg:w-1/3 w-full">
+        <div
+          data-aos="zoom-in"
+          data-aos-easing="linear"
+          data-aos-duration="500"
+          className="lg:w-1/3 w-full"
+        >
           <Tilt
             className="tilt"
             perspective={1000}
@@ -63,7 +68,7 @@ const Banner = () => {
             </button>
           </a>
 
-          <div className="flex gap-3">
+          <div data-aos="fade-up-right" className="flex gap-3">
             <Link
               target="new"
               to="https://www.linkedin.com/in/md-mukhter-h-95a180191/"

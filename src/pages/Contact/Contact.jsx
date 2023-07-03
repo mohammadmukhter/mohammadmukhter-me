@@ -39,7 +39,11 @@ const Contact = () => {
       <h3 className="text-center text-2xl">
         <span className="text-orange-600">Let's</span> Talk about your ideas
       </h3>
-      <section className="mb-12  text-white mt-8">
+      <section
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        className="mb-12  text-white mt-8"
+      >
         <div className="flex flex-wrap">
           <div className="grow-0 shrink-0 basis-auto mb-6 md:mb-0 w-full md:w-6/12 px-3 lg:px-6 text-white">
             <p className="text-xl font-bold mb-5">

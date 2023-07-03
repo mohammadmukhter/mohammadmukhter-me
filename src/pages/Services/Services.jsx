@@ -25,7 +25,7 @@ const Services = () => {
       <h3 className="text-center text-2xl drop-shadow-2xl">
         <span className="text-orange-600">My</span> Services
       </h3>
-      <div className="px-4 py-8">
+      <div data-aos="fade-up" data-aos-duration="1000" className="px-4 py-8">
         <Swiper
           slidesPerView={1}
           spaceBetween={10}

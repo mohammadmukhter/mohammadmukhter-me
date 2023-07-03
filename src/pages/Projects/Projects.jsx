@@ -16,7 +16,11 @@ const Projects = () => {
         </h3>
         <div className="px-4 py-8 grid grid-cols-1 gap-4">
           {/* project one No: */}
-          <div className="card w-full h-auto rounded-md bg-neutral text-neutral-content shadow-md">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className="card w-full h-auto rounded-md bg-neutral text-neutral-content shadow-md"
+          >
             <div className="card-body text-white grid grid-cols-1 lg:grid-cols-2">
               <div className="px-4">
                 <div className="flex justify-between">
@@ -134,7 +138,11 @@ const Projects = () => {
           </div>
 
           {/* project two No */}
-          <div className="card w-full h-auto rounded-md bg-neutral text-neutral-content shadow-md">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className="card w-full h-auto rounded-md bg-neutral text-neutral-content shadow-md"
+          >
             <div className="card-body text-white grid grid-cols-1 lg:grid-cols-2">
               <div className="px-4">
                 <div className="flex justify-between">
@@ -239,7 +247,11 @@ const Projects = () => {
           </div>
 
           {/* project Three No */}
-          <div className="card w-full h-auto rounded-md bg-neutral text-neutral-content shadow-md">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className="card w-full h-auto rounded-md bg-neutral text-neutral-content shadow-md"
+          >
             <div className="card-body text-white grid grid-cols-1 lg:grid-cols-2">
               <div className="px-4">
                 <div className="flex justify-between">
