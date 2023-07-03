@@ -1,5 +1,7 @@
 import bgImg from "../../assets/mern.jpg";
 import Banner from "../Banner/Banner";
+import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer";
 import NavBar from "../NavBar/NavBar";
 import Projects from "../Projects/Projects";
 import Services from "../Services/Services";
@@ -19,6 +21,8 @@ const Home = () => {
           <Services></Services>
           <Skill></Skill>
           <Projects></Projects>
+          <Contact></Contact>
+          <Footer></Footer>
         </div>
       </div>
     </div>

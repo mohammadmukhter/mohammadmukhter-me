@@ -122,7 +122,7 @@ const Skill = () => {
                   </h2>
                 </div>
                 <div className="text-2xl font-semibold text-orange-600">
-                  Familiar{" "}
+                  Comfortable{" "}
                 </div>
               </div>
               <div className="text-left">
@@ -143,7 +143,7 @@ const Skill = () => {
                   <h2 className="card-title text-center">MongoDB</h2>
                 </div>
                 <div className="text-2xl font-semibold text-orange-600">
-                  Familiar{" "}
+                  Comfortable{" "}
                 </div>
               </div>
               <div className="text-left">
